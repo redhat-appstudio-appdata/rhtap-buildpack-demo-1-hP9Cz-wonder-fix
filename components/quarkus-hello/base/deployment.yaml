@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: quarkus-hello
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/cmoullia-tenant/rhtap-buildpack-demo-1/quarkus-hello@sha256:c10e31d17a8b59edfd35d1d8b73b8877bf4327905980758e5a6d5b25e39ac42c
         name: my-java-quarkus
         ports:
         - containerPort: 8081
